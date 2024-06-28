@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+<style>
+body{
+background-color: graytext;
+}
+h1{
+ margin-left: 40%;
+ font-size: 40px;
+ font-style: oblique;
+ color: orange;
+}
+form{
+ background-color:black;
+ margin-left:30%;
+ color:white;
+ height: 350px;
+ width: 500px;
+ padding: 30px;
+ border-radius: 20px;
+}
+label{
+ position: absolute;
+ left:33%;
+ font-size: large;
+}
+input{
+ position: absolute;
+ left:43%;
+ height:30px;
+ width: 300px;
+ border-radius: 20px;
+ border: none;
+}
+input::placeholder{
+ color:black;
+ font-weight: bold;
+ padding-left: 30px;
+}
+.sub{
+ height:40px;
+ width: 100px;
+ background-color: blue;
+ margin-left: 50px;
+ color:white;
+}
+</style>
+</head>
+<body>
+ <h1>Register Here</h1>
+ <form action="regi" align="center" method="post">
+   <label>Name:-</label>
+   <input type="text" placeholder="Enter your name" name="username"><br><br><br>
+   <label>Email:-</label>
+   <input type="email" placeholder="Enter your email" name="usermail" required><br><br><br>
+   <label>Phone Number:-</label>
+   <input type="tel" placeholder="Enter your phone number" name="userphone"><br><br><br>
+   <label>Address:-</label>
+   <input type="text" placeholder="Enter your address" name="useradd"><br><br><br>
+   <label>DOB:-</label>
+   <input type="date" placeholder="Enter your DoB" name="userdob"><br><br><br>
+   <label>Password:-</label>
+   <input type="password" placeholder="Enter your password" name="userpass" required><br><br><br>
+   <input type="submit" value="REGISTER" class="sub">
+ </form>
+</body>
+</html>

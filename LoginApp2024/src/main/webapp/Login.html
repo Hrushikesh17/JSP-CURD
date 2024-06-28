@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<style>
+ body{
+background-color: graytext;
+}
+a{
+ position: relative;
+ left:45%;
+ top:-45px;
+ color: red;
+ font-size: 15px;
+}
+h1{
+ margin-left: 40%;
+ font-size: 40px;
+ font-style: oblique;
+ color: orange;
+}
+form{
+ background-color:black;
+ margin-left:30%;
+ color:white;
+ height: 250px;
+ width: 500px;
+ padding: 30px;
+ border-radius: 20px;
+}
+label{
+ position: absolute;
+ left:36%;
+ font-size: large;
+ margin-top:30px;
+}
+input{
+ position: absolute;
+ left:43%;
+ height:30px;
+ width: 300px;
+ border-radius: 20px;
+ border: none;
+ margin-top:30px;
+}
+input::placeholder{
+ color:black;
+ font-weight: bold;
+ padding-left: 30px;
+}
+.sub{
+ height:40px;
+ width: 100px;
+ background-color: green;
+ margin-left: 50px;
+ margin-top:60px;
+ color:white;
+}
+</style>
+</head>
+<body>
+<h1>Login Page</h1>
+<form action="logi" method="post">
+<label>Email:-</label>
+<input type="email" placeholder="Enter email" name="email"><br><br><br><br>
+<label>Password:-</label>
+<input type="password" placeholder="Enter password" name="password"><br><br>
+<input type="submit" value="Login" class="sub">
+</form>
+<a href="Register.html">New User ? Create Account</a>
+</body>
+</html>
